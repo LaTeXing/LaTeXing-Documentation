@@ -80,8 +80,20 @@ is under active development and is not recommended for the use on productive
 systems. If you found a bug in this version please drop a mail with a problem
 report at [support@latexing.com][support].
 
+The configuration file of package control should at least contain the
+following informations:
+
+    {
+      "install_prereleases": true,
+      "repositories":
+      [
+        "http://testing.latexing.com/packages.json",
+      ]
+    }
+
+
 The documentation for the testing version is earliest available via
-[http://docs.latexing.com/en/development](), but it could also be that a new
+[http://www.latexing.com/docs/testing.html](), but it could also be that a new
 function is not supported prior release on the testing chanel.
 
 ## LaTeXing Configuration
