@@ -156,6 +156,11 @@ the value for type is defined by label\_type below. Please note that a
 normalised version of the file name will be used if no prefix is defined and
 you are not in your root document.
 
+## foldable\_environments
+
+Define a list of environments which are available to fold without based on
+indention, by default table, figure, equation environments can be fold.
+
 ## static\_cwl, dynamic\_cwl
 
 LaTeXing offers full support of the open source plugin LaTeX-cwl which can be
