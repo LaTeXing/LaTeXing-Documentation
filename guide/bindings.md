@@ -256,6 +256,19 @@ LaTeXing helps you to fill often used phrases in your report. With this
 command you can add one ore more selctions to you defined phrases dictionary,
 please check the tutorial section
 
+## LaTeX Command
+
+**Keybinding:** `cmd + l, cmd + c`
+
+Create a new command with the currently selected word are command name.
+
+## LaTeX Environment
+
+**Keybinding:** `cmd + l, cmd + e`
+
+Create a new environment with the currently selected word are environment
+name.
+
 ## Build Options
 
 **Keybinding:** `cmd + l, cmd + b`
