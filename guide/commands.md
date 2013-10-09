@@ -1,26 +1,8 @@
-# Commands
+# Further Commands without a Keybinding
 
 These commands are available from the command palette. Some of these commands
 in this section are also available via a key binding, therefore you have to
 check the corresponding section in the key bindings for these commands.
-
-## Open PDF
-
-**Keybinding:** `cmd + l, cmd + o`
-
-LaTeXing makes is very easy to handle your work without leaving the text
-editor, with this command it is possible to open the generated PDF file if
-available. The option keep\_focus in the settings determines if the PDF viewer
-will gain focus or Sublime Text will stay in the foreground.
-
-## Jump to PDF
-
-**Keybinding:** `cmd + l, cmd + j`
-
-The function of this command is similar to the “Open PDF” command with the
-small difference that the PDF viewer will always be focused after open the
-file unrelated to the keep\_focus setting and jump to the correlated position
-in the PDF file.
 
 ## Check System
 
@@ -38,31 +20,6 @@ still helpful during your daily work. Attached to the test, LaTeXing opens a
 window with a list of all the required tools and the total status of your
 system.
 
-## Import Citation(s)
-
-**Keybinding:** `cmd + l, cmd + r`
-
-LaTeXing offers a wide support for the online reference systems
-[Bibsonomy][bibsonomy], [Citeulike][citeulike], [Mendeley][mendeley], and
-[Zotero][zotero]. It is possible to import a single post, multiple post by
-tags, all available post, or even import post by searching for missing
-citations in your TeX file. The import command is available for TeX files as
-well as for bibliography files.
-
-Apart from using Bibsonomy.org you can also configure a global bibliography
-files which will be used for further as reference. This is very handy if you
-use a global library exported by e.g. Mendeley.
-
-## Insert TeX Symbol
-
-**Keybinding:** `§` (OS X) or <code>\`</code> (Windows, Linux)
-
-LaTeXing helps you to fill TeX symbols, this are for example simple Greek
-letters or more complex arrows or symbols. After hitting the trigger, a menu
-will appear and you can choose the symbol out of that list. The behaviour is a
-wee bit more complex and need some extra explanation, please check the
-tutorial section.
-
 ## Lookup TeX Symbol
 
 Opens the browser at [detexify.kirelabs.org][detexify], on this website you
@@ -71,14 +28,6 @@ can sketch a symbol and see the possible latex commands to generate it.
 ## Phrases Dictionary
 
 Open any available phrase dictionary.
-
-## Word to Phrases Dictionary
-
-**Keybinding:** `cmd + l, cmd + u`
-
-LaTeXing helps you to fill often used phrases in your report. With this
-command you can add one ore more selctions to you defined phrases dictionary,
-please check the tutorial section
 
 ## Synchronise Remote Data
 
@@ -117,16 +66,6 @@ message after executing with the total words, the words in headers as well as
 the word in captions.
 
 ![image](images/texcount.jpg)
-
-## Toggle Preferences
-
-**Keybinding:** `cmd + l, cmd + t`
-
-Provides a list of the simple preference options of LaTeXing with the
-possibility of toggle them. This command can access boolean options, to these
-options which can be either true or false. With this command it is possible to
-quick disable or enable the use of the forward search for the generated file
-for example.
 
 [bibsonomy]: http://www.bibsonomy.org
 [citeulike]: http://www.citeulike.org
