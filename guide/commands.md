@@ -128,4 +128,8 @@ options which can be either true or false. With this command it is possible to
 quick disable or enable the use of the forward search for the generated file
 for example.
 
+[bibsonomy]: http://www.bibsonomy.org
+[citeulike]: http://www.citeulike.org
 [detexify]: http://detexify.kirelabs.org/classify.html
+[mendeley]: http://www.mendeley.com
+[zotero]: http://www.zotero.org
