@@ -269,10 +269,20 @@ Create a new command with the currently selected word are command name.
 Create a new environment with the currently selected word are environment
 name.
 
+**Keybinding:** `cmd + l, cmd + shift + e`
+
+Rename the current selected environment.
+
 **Keybinding:** `cmd + l, cmd + n`
 
-Create a new environment with the curser at the environment name and after
+Create a new environment with the cursor at the environment name and after
 pretting tab once in the middle of the environment.
+
+**Keybinding:** `cmd + shift + 8`
+
+Create a stared respectively unstared version of the current environment, for
+example \\begin\{align\} will be changes into \\begin\{align\*\} and vice-
+versa if calling the command again.
 
 ## Build Options
 
