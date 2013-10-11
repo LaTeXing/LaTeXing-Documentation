@@ -298,15 +298,15 @@ snippets for the selected mode.
 
 ## Text Decoration
 
-**Keybinding:** `cmd + l, cmd + c, b`
+**Keybinding:** `cmd + l, cmd + w, b`
 
 Wrap the selected text in the command \textbf and so bold the text.
 
-**Keybinding:** `cmd + l, cmd + c, e`
+**Keybinding:** `cmd + l, cmd + w, e`
 
 Wrap the selected text in the command \emph and so emphasise the text.
 
-**Keybinding:** `cmd + l, cmd + c, u`
+**Keybinding:** `cmd + l, cmd + w, u`
 
 Wrap the selected text in the command \underline and so underlines the text.
 
