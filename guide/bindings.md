@@ -269,6 +269,11 @@ Create a new command with the currently selected word are command name.
 Create a new environment with the currently selected word are environment
 name.
 
+**Keybinding:** `cmd + l, cmd + n`
+
+Create a new environment with the curser at the environment name and after
+pretting tab once in the middle of the environment.
+
 ## Build Options
 
 **Keybinding:** `cmd + l, cmd + b`
