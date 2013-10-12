@@ -253,3 +253,9 @@ definition or translation of a word very quick and easily.
 
 Just enable the support, please be sure Rscript is available on your path or
 set an absolute location for the Rscript executable
+
+## tikz, -\_create\_pdf
+
+Just enable the support and every *.tikz file will compile and build on her
+own very fast. If tikz\_create\_pdf is enabled the created pdf is also copied
+next to your source file to include it as figure.
