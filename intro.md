@@ -93,8 +93,9 @@ following informations:
 
 
 The documentation for the testing version is earliest available via
-[http://www.latexing.com/docs/testing.html](), but it could also be that a new
-function is not supported prior release on the testing chanel.
+[http://www.latexing.com/docs/testing.html][testing_latexing], but it could
+also be that a new function is not supported prior release on the testing
+chanel.
 
 ## LaTeXing Configuration
 
@@ -175,8 +176,8 @@ can be found by LaTeXing. To configure the inverse search, open Sumatra PDF
 and do the following:
 
 1. Click Settings > Advanced Options
-2. Find the option **InverseSearchCmdLine** 
-3. Set value to: `"C:\Program Files\Sublime Text 3\sublime_text.exe" "%f:%l"`. 
+2. Find the option **InverseSearchCmdLine**
+3. Set value to: `"C:\Program Files\Sublime Text 3\sublime_text.exe" "%f:%l"`.
 
 If you do not have the option just append a new line at the end of the file.
 
@@ -302,5 +303,6 @@ system.
 
 [latexing]: http://www.latexing.com
 [issues_latexing]: http://issues.latexing.com
+[testing_latexing]: http://www.latexing.com/docs/testing.html
 [skim]: http://skim-app.sourceforge.net
 [sumatra]: http://blog.kowalczyk.info/software/sumatrapdf/free-pdf-reader.html
