@@ -67,10 +67,10 @@ The [normcl][nomencl] produces lists of symbols using the capabilities of the Ma
 
     add_cus_dep('nlo', 'nls', 0, 'makenlo2nls');
     sub makenlo2nls {
-    my ($base_name, $path) = fileparse( $_[0] );
-    pushd($path);
-    system( "makeindex -s nomencl.ist -o \"$base_name.nls\" \"$base_name.nlo\"" );
-    popd;
+      my ($base_name, $path) = fileparse( $_[0] );
+      pushd($path);
+      system( "makeindex -s nomencl.ist -o \"$base_name.nls\" \"$base_name.nlo\"" );
+      popd;
     }
 
 **Be sure makeindex is available on your path.**
