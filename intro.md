@@ -101,7 +101,6 @@ chanel.
 
 ### Requirements
 
-
 The first thing you need is Sublime Text, the plugin is compatible with both
 Sublime Text 2 and 3. The Sublime Text 3 version is being actively developed
 and will keep receiving new features; the last compatible version for Sublime
@@ -115,7 +114,6 @@ Package Control, but a manual installation is also simple and explained in the
 document.
 
 ### OS X
-
 
 On OS X you need to be running the [MacTeX][mactex] distribution (which is the
 most popular distribution on a Mac system anyway). If you encounter a problem
