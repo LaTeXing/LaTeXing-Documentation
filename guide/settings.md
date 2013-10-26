@@ -48,7 +48,7 @@ the path below.
 ## forward\_sync, reverse\_sync
 
 LaTeXing offers a full support for SyncTeX
-  
+
 - forward\_sync: Support to jump from the TeX file to the corresponding
   position inside the PDF
 - reverse\_sync: Support to jump back from the PDF file into the TeX file at
@@ -209,17 +209,28 @@ fetched items from a remote bibliography source
 If you are using items from a remote bibliography source LaTeXing can keep
 track of the changes and update the local copy before a build.
 
-## bibsonomy, -\_username, -\_apikey
+## cite\_key\_blacklist
+
+Skip this words while building the citation key of the bibliography items,
+case insensitive.
+
+## bibsonomy, -\_username, -\_apikey, -\_internal\_cite\_key, -\_cite_key_pattern
 
 Just enable bibsonomy to activate the support. LaTeXing will get the other
 necessary data automatically, please check docs.latexing.com for details.
 
-## citeulike, -\_username
+You can also adjust the pattern to create a citation key if available, the
+available keys here: {Author}, {author}, {Year}, {Title}, {title}
+
+## bibsonomy, -\_username, -\_internal\_cite\_key, -\_cite_key_pattern
 
 Just enable citeulike to activate the support. LaTeXing will ask you for all
 necessary data automatically, please check docs.latexing.com for details.
 
-## mendeley, -\_oauth\_token, -\_oauth\_token\_secret, -\_cite\_key\_pattern
+You can also adjust the pattern to create a citation key if available, the
+available keys here: {Author}, {author}, {Year}, {Title}, {title}
+
+## mendeley, -\_oauth\_token, -\_oauth\_token\_secret, -\_internal\_cite\_key, -\_cite\_key\_pattern
 
 Just enable mendley to activate the support. LaTeXing will get the other
 necessary data automatically, please check docs.latexing.com for details.
@@ -232,8 +243,8 @@ available keys here: {Author}, {author}, {year}, {Title}, {title}
 Just enable zotero to activate the support. LaTeXing will get the other
 necessary data automatically, please check docs.latexing.com for details.
 
-You can also adjust the pattern to create a citation key, the available keys
-here: {Author}, {author}, {year}, {Title}, {title}
+You can also adjust the pattern to create a citation key if available, the
+available keys here: {Author}, {author}, {Year}, {Title}, {title}
 
 ## global\_bib\_file, -\_path
 
