@@ -97,7 +97,7 @@ pictures to avoid long typeset processes.
 
 The `TikZ` support also included a live preview mode which will automatically build your figure shortly after your last modification. Just call "LaTeXing: Toggle TikZ Live Preview" being in your .tikz file.
 
-The [TiKz website][tikz] is a good place to find out more about tikz's
+The [TikZ website][tikz] is a good place to find out more about tikz's
 features. It provides a number of [examples][tikz_demos] that will get you started on the
 basics.
 
