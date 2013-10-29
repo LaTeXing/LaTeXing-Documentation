@@ -85,9 +85,11 @@ across all you figures. `Document.tex` should look like this:
 
 	\end{document}
 
-LaTeXing will automatically detect all preambles until `\\begin{document}` but
-not further than `(% TIKZ)`. The use of `(% TIKZ)` which is sometimes handy if
-you don't need all preambles to load for a tikz picture.
+LaTeXing will automatically detect all preambles until `\\begin{document}`.
+You can further adjust this by defining `% (TIKZ)` somewhere in you main
+document and just everything until this stop mark will included. The use of `%
+(TIKZ)` is sometimes handy if you don't need all preambles to load for a tikz
+picture.
 
 Let's go back to `demo1.tikz`, hit `ctrl+b` (or `super+b` on a OSX) to creates
 a preview of just the current [picture][tikz_example2] and saves it as pdf
