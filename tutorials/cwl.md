@@ -64,6 +64,6 @@ files with the same name.
 ![](images/cwl_4.jpg)
 
 [latexing]: http://www.latexing.com
-[latex_cwl]: http://github.com/chris—/latex-cwl
+[latex_cwl]: https://github.com/Chris—/LaTeX-cwl
 [github]: http://www.github.com
 [support]: mailto:support@latexing.com
