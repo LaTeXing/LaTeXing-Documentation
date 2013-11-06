@@ -256,6 +256,34 @@ LaTeXing helps you to fill often used phrases in your report. With this
 command you can add one ore more selctions to you defined phrases dictionary,
 please check the tutorial section
 
+## LaTeX Command
+
+**Keybinding:** `cmd + l, cmd + c`
+
+Create a new command with the currently selected word are command name.
+
+## LaTeX Environment
+
+**Keybinding:** `cmd + l, cmd + e`
+
+Create a new environment with the currently selected word are environment
+name.
+
+**Keybinding:** `cmd + l, cmd + shift + e`
+
+Rename the current selected environment.
+
+**Keybinding:** `cmd + l, cmd + n`
+
+Create a new environment with the cursor at the environment name and after
+pretting tab once in the middle of the environment.
+
+**Keybinding:** `cmd + shift + 8`
+
+Create a stared respectively unstared version of the current environment, for
+example \\begin\{align\} will be changes into \\begin\{align\*\} and vice-
+versa if calling the command again.
+
 ## Build Options
 
 **Keybinding:** `cmd + l, cmd + b`
@@ -285,15 +313,15 @@ snippets for the selected mode.
 
 ## Text Decoration
 
-**Keybinding:** `cmd + l, cmd + c, b`
+**Keybinding:** `cmd + l, cmd + w, b`
 
 Wrap the selected text in the command \textbf and so bold the text.
 
-**Keybinding:** `cmd + l, cmd + c, e`
+**Keybinding:** `cmd + l, cmd + w, e`
 
 Wrap the selected text in the command \emph and so emphasise the text.
 
-**Keybinding:** `cmd + l, cmd + c, u`
+**Keybinding:** `cmd + l, cmd + w, u`
 
 Wrap the selected text in the command \underline and so underlines the text.
 

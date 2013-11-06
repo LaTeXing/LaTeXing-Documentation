@@ -65,7 +65,7 @@ is very easy. This feature uses the command line tool texcount and gives a
 message after executing with the total words, the words in headers as well as
 the word in captions.
 
-![image](images/texcount.jpg)
+![](images/texcount.jpg)
 
 [bibsonomy]: http://www.bibsonomy.org
 [citeulike]: http://www.citeulike.org

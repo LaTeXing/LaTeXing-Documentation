@@ -93,14 +93,13 @@ following informations:
 
 
 The documentation for the testing version is earliest available via
-[www.latexing.com/docs/testing.html][testing_latexing], but it could
+[http://www.latexing.com/docs/testing.html][testing_latexing], but it could
 also be that a new function is not supported prior release on the testing
 chanel.
 
 ## LaTeXing Configuration
 
 ### Requirements
-
 
 The first thing you need is Sublime Text, the plugin is compatible with both
 Sublime Text 2 and 3. The Sublime Text 3 version is being actively developed
@@ -115,7 +114,6 @@ Package Control, but a manual installation is also simple and explained in the
 document.
 
 ### OS X
-
 
 On OS X you need to be running the [MacTeX][mactex] distribution (which is the
 most popular distribution on a Mac system anyway). If you encounter a problem
