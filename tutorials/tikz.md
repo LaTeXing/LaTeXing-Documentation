@@ -3,8 +3,9 @@
 [`TikZ`][tikz] is together with PGF a TeX package for creating graphics
 programmatically. TikZ is build on top of PGF and allows you to create
 sophisticated graphics in a rather intuitive and easy manner. `LaTeXing` makes
-it more comfortable and faster to use `TikZ` in Sublime Text 3. In this tutorial the setup
-process and the individual configuration possibilities are covered.
+it more comfortable and faster to use `TikZ` in Sublime Text 3. In this
+tutorial the setup process and the individual configuration possibilities are
+covered.
 
 Let's consider an example before we talk about the setup in detail.
 
@@ -97,11 +98,15 @@ next to the tikz picture if the option is enabled. From now on you can just
 include the pdf like a usual figure, this help a lot while using a lot of tikz
 pictures to avoid long typeset processes.
 
-The `TikZ` support also included a live preview mode which will automatically build your figure shortly after your last modification. Just call "LaTeXing: Toggle TikZ Live Preview" being in your .tikz file.
+## TikZ Live Preview
+
+The `TikZ` support also included a live preview mode which will automatically
+build your figure shortly after your last modification. Just call "LaTeXing:
+Toggle TikZ Live Preview" being in your .tikz file.
 
 The [TikZ website][tikz] is a good place to find out more about tikz's
-features. It provides a number of [examples][tikz_demos] that will get you started on the
-basics.
+features. It provides a number of [examples][tikz_demos] that will get you
+started on the basics.
 
 [tikz]: http://www.texample.net/tikz/
 [tikz_demos]: http://www.texample.net/tikz/examples
