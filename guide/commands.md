@@ -20,6 +20,16 @@ still helpful during your daily work. Attached to the test, LaTeXing opens a
 window with a list of all the required tools and the total status of your
 system.
 
+## Clean Temporary Output Dictionary
+
+Clean the whole temporary output directory which is used in output directory
+mode 2.
+
+# Clean up (Remove) all Nonessential Files
+
+Remove all nonessential files from previous builds, search search path depends
+on your output directory settings.
+
 ## Lookup TeX Symbol
 
 Opens the browser at [detexify.kirelabs.org][detexify], on this website you
