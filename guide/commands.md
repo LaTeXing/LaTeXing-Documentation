@@ -22,10 +22,11 @@ system.
 
 ## Clean Temporary Output Dictionary
 
-Clean the whole temporary output directory which is used in output directory
-mode 2.
+LaTeXing can work with a temporary dictionary to avoid all the nonessential
+files next to your original source file. With this command you can clean the
+whole temporary output directory which is used in output directory mode 2.
 
-# Clean up (Remove) all Nonessential Files
+## Clean up (Remove) all Nonessential Files
 
 Remove all nonessential files from previous builds, search search path depends
 on your output directory settings.
