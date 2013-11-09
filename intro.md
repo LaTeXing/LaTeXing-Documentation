@@ -1,15 +1,7 @@
 # Introduction
 
-## Installing LaTeXing
-
-> Since Package Control 2.0 is available the Sublime Text 2 and Sublime Text 3
-> version are both available under the same name. The features are different
-> but we are looking forward and supporting the Sublime Text 3 version with
-> new features. This will lead to a great improved  plugin completely written
-> in Python3 with all advantages. If you have difficulties while updating it
-> please just remove LaTeXing3 and reinstall the new version. If this still
-> didn't solved your problems, just drop an email at
-> [support@latexing.com][support].
+The first time use of LaTeXing with Sublime Text can be sometimes a bit
+difficult, just take your time and ready this documentation.
 
 ### Automatic Control Package Installation
 
@@ -77,8 +69,8 @@ to install LaTeXing manually:
 If you would like to try out the latest version of LaTeXing you can use the
 testing repository, `http://testing.latexing.com/packages.json`, this version
 is under active development and is not recommended for the use on productive
-systems. If you found a bug in this version please drop a mail with a problem
-report at [support@latexing.com][support].
+systems. If you found a bug in this version please visit the [forum][forum]
+and report the problem or drop a mail at [support@latexing.com][support].
 
 The configuration file of package control should at least contain the
 following informations:
@@ -279,17 +271,13 @@ texcount, kpswhich, mthelp for MikTeX, texdoc for TeXlive or MacTeX) are
 available in your system; to run it, click on Tools > Packages > LaTeXing >
 Check System. Some of these commands, like "texdoc", are not mandatory but are
 still helpful during your daily work. Attached to the test, LaTeXing opens a
-window with a list of all the required tools and the total status of your
+new view with a list of all the required tools and the total status of your
 system.
 
-**OS X**
+![](images/check_system_1.jpg)
 
-![](images/intro_check_system_1.jpg)
 
-**Linux**
-
-![](images/intro_check_system_2.jpg)
-
+[forum]: http://www.latexting.com/forum.html
 [support]: mailto:support@latexing.com
 [pc]: http://wbond.net/sublime_packages/package_control/installation
 [v2]: http://release.latexing.com/2/LaTeXing.sublime-package
@@ -297,7 +285,7 @@ system.
 
 [texlive]: http://www.tug.org/texlive
 [miktex]: http://miktex.org
-[mactex]: http://miktex.org
+[mactex]: http://tug.org/mactex/
 
 [latexing]: http://www.latexing.com
 [issues_latexing]: http://issues.latexing.com
