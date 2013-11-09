@@ -45,20 +45,40 @@ right position inside your output directory. For this example the output
 directory was disabled.
 
 Now we just need to adjust the sublime-build to enable the call of the created
-shell script. The sublime-build need to be extended by the following:
+shell script. The sublime-build need to be extended by the first of the
+following commands:
 
-    "autogit": [
-        "sh",
-        "autogit.sh"
-    ],
     "makefile": [
         "sh",
         "makefile.sh"
     ],
+    /*
+     * Use shell script on OSX or Linux
+     */
+    "autogit": [
+        "sh",
+        "autogit.sh"
+    ],
+    /*
+     * Use batch file on Windows
+     */
+    "autogit_cmd": [
+        "cmd",
+        "/C",
+        "autogit.bat"
+    ],
+     /*
+     * Use powershell on Windows
+     */
+    "autogit_ps": [
+        "powershell",
+        "./autogit.bat"
+    ]
 
 You can also pass the available parameters like \{filebase\}, \{synctex\},
 \{outdir\}, \{pdfname\}, or \{file\} to the script if you wish to. Now you can
-just run a quick build and can see that the makefile command is available.
+just run a quick build and can see that the makefile command is available. You
+can see an example how to use batch or powershell files on Windows.
 
 ## Custom Build Order
 
