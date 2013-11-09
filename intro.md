@@ -276,7 +276,6 @@ system.
 
 ![](images/check_system_1.jpg)
 
-
 [forum]: http://www.latexting.com/forum.html
 [support]: mailto:support@latexing.com
 [pc]: http://wbond.net/sublime_packages/package_control/installation

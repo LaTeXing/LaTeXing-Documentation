@@ -8,13 +8,10 @@ more it is possible to use user defined script like shell script on OSX and
 Linux as well as Powershell on Windows.
 
 To adjust the build process you have to adjust the sublime-build and
-sublime-settings. Basically it is simple and well structures, if you would
-like to adjust the build commands itself, for example creating a new shell
+sublime-settings. The basic idea is simple and well structures, if you would
+like to **adjust the build commands** itself, for example creating a new shell
 script just adjust the sublime-build. On the other hand if you just would like
-to adjust the given commands you meed to change the sublime-settings.
-
-If you need help, just check the forum, I am sure there are a few examples of
-how to use this system after a few weeks.
+to **adjust the given commands** you meed to change the sublime-settings.
 
 You have two different ways to call alternative build types, the first one is
 to use the keybinding `super+l, suber+b` which shows all the available build
@@ -82,8 +79,9 @@ can see an example how to use batch or powershell files on Windows.
 
 **LaTeXing do not detect errors in external scripts, so before reporting a
 problem be sure you can succesfully call the script from outside of
-LaTeXing.** Anyway if you have a problem you can check the *.stderr file from
-your output directory for any possible error messages.
+LaTeXing.** Anyway if you have a problem, enable the log mode and you check
+the *.stderr.log file from your output directory for any possible error
+messages.
 
 ## Custom Build Order
 
@@ -107,6 +105,10 @@ The command autogit needs to be completed like shows above. Now LaTeXing
 executed the shell script *autogit.sh* followed by the original latexmk to
 build the project. In case you want the new command to be default, just change
 the default settings.
+
+If you need further help, just check the forum, I am sure there are a few
+examples of how to use this system shortly.
+
 
 [latexmk]: http://www.ctan.org/pkg/latexmk
 [makefile]: https://code.google.com/p/latex-makefile/
