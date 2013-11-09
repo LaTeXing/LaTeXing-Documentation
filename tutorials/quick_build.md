@@ -82,7 +82,8 @@ can see an example how to use batch or powershell files on Windows.
 
 **LaTeXing do not detect errors in external scripts, so before reporting a
 problem be sure you can succesfully call the script from outside of
-LaTeXing.**
+LaTeXing.** Anyway if you have a problem you can check the *.stderr file from
+your output directory for any possible error messages.
 
 ## Custom Build Order
 
