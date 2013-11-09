@@ -80,6 +80,10 @@ You can also pass the available parameters like \{filebase\}, \{synctex\},
 just run a quick build and can see that the makefile command is available. You
 can see an example how to use batch or powershell files on Windows.
 
+**LaTeXing do not detect errors in external scripts, so before reporting a
+problem be sure you can succesfully call the script from outside of
+LaTeXing.**
+
 ## Custom Build Order
 
 If you would like for example create a custom order with calling a shell
@@ -100,8 +104,8 @@ change your settings like this.
 
 The command autogit needs to be completed like shows above. Now LaTeXing
 executed the shell script *autogit.sh* followed by the original latexmk to
-build the project.
-
+build the project. In case you want the new command to be default, just change
+the default settings.
 
 [latexmk]: http://www.ctan.org/pkg/latexmk
 [makefile]: https://code.google.com/p/latex-makefile/
