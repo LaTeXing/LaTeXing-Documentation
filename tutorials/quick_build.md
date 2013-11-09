@@ -21,6 +21,8 @@ to use the keybinding `super+l, suber+b` which shows all the available build
 options and select **Build: Quick Build**, the other keybinding is
 `super+ctrl+b` to open it straight away.
 
+![](images/quick_build.jpg)
+
 ## Custom Script
 
 If you need a deep control of the build process, for example if you prefer to
