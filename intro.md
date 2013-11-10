@@ -95,7 +95,7 @@ following informations:
 The documentation for the testing version is earliest available via
 [http://www.latexing.com/docs/testing.html][testing_latexing], but it could
 also be that a new function is not supported prior release on the testing
-chanel.
+channel.
 
 ## LaTeXing Configuration
 
