@@ -16,7 +16,7 @@
 
 	"log": false,
 
-# Quick Build Settings
+## Quick Build Settings
 
 	/*
 	 * By default LaTeXing will use latexmk to build the pdf file, in some
