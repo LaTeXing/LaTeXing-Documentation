@@ -42,7 +42,7 @@ right position inside your output directory. For this example the output
 directory was disabled.
 
 Now we just need to adjust the sublime-build to enable the call of the created
-shell script. The sublime-build need to be extended by the first of the
+shell script. The sublime-build need to be extended **cmd_qb** by the first of the
 following commands:
 
     "makefile": [
@@ -91,9 +91,9 @@ change your settings like this.
 
     "quick_build": [
       {
-        "name": "Default Build: latexmk",
-        "default": true,
-        "cmds": ["latexmk"]
+        "name": "Default Build: pdflatex",
+        "primary": true,
+        "cmds": ["pdflatex"]
       },
       {
         "name": "Quick Build: autogit + latexmk",
