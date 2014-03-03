@@ -1,6 +1,6 @@
 # Quick Build
 
-[Latexmk][latexmk] is the default tool to build a pdf within LaTeXing but with
+[latexmk][latexmk] is the default tool to build a pdf within LaTeXing but with
 version 1.1 a novel build system and other options have been introduced. The
 first one, and probably more easy one, is the ability of creating a custom
 build order using the existing tools like pdflatex, bibtex, biber etc. Further
@@ -9,9 +9,9 @@ Linux as well as Powershell on Windows.
 
 To adjust the build process you have to adjust the sublime-build and
 sublime-settings. The basic idea is simple and well structures, if you would
-like to **adjust the build commands** itself, for example creating a new shell
+like to adjust the build commands itself, for example creating a new shell
 script just adjust the sublime-build. On the other hand if you just would like
-to **adjust the given commands** you meed to change the sublime-settings.
+to adjust the given commands you meed to change the sublime-settings.
 
 You have two different ways to call alternative build types, the first one is
 to use the keybinding `super+l, suber+b` which shows all the available build
@@ -79,8 +79,10 @@ can see an example how to use batch or powershell files on Windows.
 
 **LaTeXing do not detect errors in external scripts, so before reporting a
 problem be sure you can succesfully call the script from outside of
-LaTeXing.** Anyway if you have a problem, enable the log mode and you check
-the *.stderr.log file from your output directory for any possible error
+LaTeXing.** 
+
+However if you have a problem, enable the log mode and you check
+the *.stderr.log file inside your output directory for any possible error
 messages.
 
 ## Custom Build Order
@@ -108,7 +110,6 @@ the default settings.
 
 If you need further help, just check the forum, I am sure there are a few
 examples of how to use this system shortly.
-
 
 [latexmk]: http://www.ctan.org/pkg/latexmk
 [makefile]: https://code.google.com/p/latex-makefile/
