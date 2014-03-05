@@ -16,6 +16,35 @@
 
 	"log": false,
 
+## Quick Build Settings
+
+	/*
+	 * By default LaTeXing will use latexmk to build the pdf file, in some
+	 * cases it is more convenient to use just a single pdflatex for example
+	 * to refresh a huge file but don't care about missing cross references.
+	 *
+	 * You can also adjust the default build settings, be careful with this
+	 * setting, it could break everything. To adjust this further you also
+	 * need to change the sublime-build to provide further commands than the
+	 * defaults.
+	 */
+
+	"quick_build": [
+		{
+			"name": "Default Build: latexmk",
+			"primary": true,
+			"cmds": ["pdflatex"]
+		},
+		{
+			"name": "Quick Build 1: pdflatex + bibtex + pdflatex (2x)",
+			"cmds": ["pdflatex", "bibtex", "pdflatex", "pdflatex"]
+		},
+		{
+			"name": "Quick Build 2: pdflatex + biber + pdflatex (2x)",
+			"cmds": ["pdflatex", "biber", "pdflatex", "pdflatex"]
+		}
+	],
+
 ## Fallback Encoding
 
 	/*
