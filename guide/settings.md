@@ -365,7 +365,7 @@
 
 	/*
 	 * LaTeXing offers full support of the open source plugin LaTeX-cwl which
-	 * can be found here (https://github.com/Chris---/LaTeX-cwl).
+	 * can be found here (https://github.com/LaTeXing/LaTeX-cwl).
 	 *
 	 * In addition to the provided cwl files by the plugin you have the
 	 * ability to save your own files under “User/cwl” within the Sublime Text
