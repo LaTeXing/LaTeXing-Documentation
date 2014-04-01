@@ -66,4 +66,4 @@ files with the same name.
 [latexing]: http://www.latexing.com
 [latex_cwl]: https://github.com/LaTeXing/LaTeX-cwl
 [github]: http://www.github.com
-[support]: mailto:support@latexing.com
+[support]: mailto:info@latexing.com

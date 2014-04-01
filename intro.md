@@ -70,7 +70,7 @@ If you would like to try out the latest version of LaTeXing you can use the
 testing repository, `http://testing.latexing.com/packages.json`, this version
 is under active development and is not recommended for the use on productive
 systems. If you found a bug in this version please visit the [forum][forum]
-and report the problem or drop a mail at [support@latexing.com][support].
+and report the problem or drop a mail at [info@latexing.com][support].
 
 The configuration file of package control should at least contain the
 following informations:
@@ -277,7 +277,7 @@ system.
 ![](images/check_system_1.jpg)
 
 [forum]: http://www.latexting.com/forum.html
-[support]: mailto:support@latexing.com
+[support]: mailto:info@latexing.com
 [pc]: http://wbond.net/sublime_packages/package_control/installation
 [v2]: http://release.latexing.com/2/LaTeXing.sublime-package
 [v3]: http://release.latexing.com/3/LaTeXing.sublime-package
