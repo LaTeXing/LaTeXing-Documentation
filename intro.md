@@ -69,8 +69,8 @@ to install LaTeXing manually:
 If you would like to try out the latest version of LaTeXing you can use the
 testing repository, `http://testing.latexing.com/packages.json`, this version
 is under active development and is not recommended for the use on productive
-systems. If you found a bug in this version please visit the [forum][forum]
-and report the problem or drop a mail at [info@latexing.com][support].
+systems. If you found a bug in this version please visit [github][issues_latexing]
+and report the problem or drop a mail at [info@latexing.com](mailto:info@latexing.com).
 
 The configuration file of package control should at least contain the
 following informations:
@@ -98,7 +98,7 @@ Sublime Text 2 and 3. The Sublime Text 3 version is being actively developed
 and will keep receiving new features; the last compatible version for Sublime
 Text 2 is any version below 0.6. So make sure that you are on a supported
 version before reporting any problems or bugs on
-[issues.latexing.com][issues_latexing].
+[github][issues_latexing].
 
 Second, get the LaTeXing plugin, as explained (in two different ways) here see
 installing-label. The easiest way is to complete the installation via the
@@ -276,8 +276,6 @@ system.
 
 ![](images/check_system_1.jpg)
 
-[forum]: http://www.latexting.com/forum.html
-[support]: mailto:info@latexing.com
 [pc]: http://wbond.net/sublime_packages/package_control/installation
 [v2]: http://release.latexing.com/2/LaTeXing.sublime-package
 [v3]: http://release.latexing.com/3/LaTeXing.sublime-package
@@ -287,7 +285,7 @@ system.
 [mactex]: http://tug.org/mactex/
 
 [latexing]: http://www.latexing.com
-[issues_latexing]: http://issues.latexing.com
-[testing_latexing]: http://www.latexing.com/docs/testing.html
+[issues_latexing]: https://github.com/LaTeXing
+[testing_latexing]: http://docs.latexing.com/testing.html
 [skim]: http://skim-app.sourceforge.net
 [sumatra]: http://blog.kowalczyk.info/software/sumatrapdf/free-pdf-reader.html
