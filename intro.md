@@ -70,7 +70,7 @@ If you would like to try out the latest version of LaTeXing you can use the
 testing repository, `http://testing.latexing.com/packages.json`, this version
 is under active development and is not recommended for the use on productive
 systems. If you found a bug in this version please visit [github][issues_latexing]
-and report the problem or drop a mail at [info@latexing.com](mailto:info@latexing.com).
+and report the problem or get in [touch][support] via email.
 
 The configuration file of package control should at least contain the
 following informations:
@@ -85,7 +85,7 @@ following informations:
 
 
 The documentation for the testing version is earliest available via
-[http://www.latexing.com/docs/testing.html][testing_latexing], but it could
+[http://docs.latexing.com/testing.html][testing_latexing], but it could
 also be that a new function is not supported prior release on the testing
 channel.
 
@@ -286,6 +286,7 @@ system.
 
 [latexing]: http://www.latexing.com
 [issues_latexing]: https://github.com/LaTeXing
+[support]: http://www.latexing.com/contact.html
 [testing_latexing]: http://docs.latexing.com/testing.html
 [skim]: http://skim-app.sourceforge.net
 [sumatra]: http://blog.kowalczyk.info/software/sumatrapdf/free-pdf-reader.html
