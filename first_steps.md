@@ -1,5 +1,9 @@
 # First Steps with LaTeXing!!
 
+Lean how to create a very simple document with LaTeXing. Please remember that
+this is not a place to lean LaTeX from scratch, you should still be able to
+follow the easy commands.
+
 ## Create a new TeX File
 
 LaTeXing provides several templates for creating a new LaTeX file; the
@@ -47,9 +51,9 @@ PDF document will be available.
 
 ## The Working Directory
 
-The file structure is fairly simple, but to avoid any misunderstanding (shown
-below), the output folder is set to *Output* (which can be customized),
-relative to the current working directory.
+The file structure is fairly simple, if you are using the
+output_directory_mode 0 the output folder is set to *Output* relative to the
+current working directory.
 
 ![](images/first_steps_finder.jpg)
 

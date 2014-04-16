@@ -264,7 +264,7 @@
 	 * from the source code.
 	 *
 	 * output_directory: enables the use of an output directory
-	 * Output_directory_mode: use a relative directory names "Output" next to
+	 * output_directory_mode: use a relative directory named "Output" next to
 	 * your source code (0) or use a temporary dictionary (1).
 	 *
 	 * Just can clean up the temporary dictionary by calling the "Clean
