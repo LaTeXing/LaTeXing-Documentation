@@ -12,7 +12,7 @@ set up the access the authorisation process will be initiated.
 ## Enter the Username
 
 For a successful communication between LaTeXing and Citeulike you just have to
-provide an username. At the bottom an input panel will apear and you just have
+provide an username. At the bottom an input panel will appear and you just have
 to fill your username in that panel.
 
 ![](images/citeulike_setup_1.jpg)

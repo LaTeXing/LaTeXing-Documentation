@@ -78,7 +78,7 @@ just run a quick build and can see that the makefile command is available. You
 can see an example how to use batch or powershell files on Windows.
 
 **LaTeXing do not detect errors in external scripts, so before reporting a
-problem be sure you can succesfully call the script from outside of
+problem be sure you can successfully call the script from outside of
 LaTeXing.** 
 
 However if you have a problem, enable the log mode and you check

@@ -31,7 +31,7 @@ should appear on the status bar and the initial message of LaTeXing show.
 
 ![](images/intro_install_latexing_2.jpg)
 
-> The version for Sublime Text 2 is maked as deprecated, the version will
+> The version for Sublime Text 2 is marked as deprecated, the version will
 > still receive bug fix if required but the active development is focused on
 > Sublime Text 3.
 >
@@ -139,7 +139,7 @@ After setting up the path in preference, Skim should look similar to this one:
 **Preview**
 
 To use Preview you just have to setup the path in LaTeXing.sublime-settings.
-Please see check your system and be sure that Preivew can be found by
+Please see check your system and be sure that Preview can be found by
 LaTeXing.
 
 > **Preview will ignore forward\_sync and reverse\_sync.**
