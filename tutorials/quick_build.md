@@ -11,7 +11,7 @@ To adjust the build process you have to adjust the sublime-build and
 sublime-settings. The basic idea is simple and well structures, if you would
 like to adjust the build commands itself, for example creating a new shell
 script just adjust the sublime-build. On the other hand if you just would like
-to adjust the given commands you meed to change the sublime-settings.
+to adjust the given commands you need to change the sublime-settings.
 
 You have two different ways to call alternative build types, the first one is
 to use the keybinding `super+l, suber+b` which shows all the available build
