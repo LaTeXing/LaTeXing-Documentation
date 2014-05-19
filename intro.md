@@ -213,6 +213,10 @@ found by LaTeXing.
 
 > **Adobe Reader will ignore forward\_sync and reverse\_sync.**
 
+Some PDF viewer on Windows lock the file and do not allow to the update of the
+file while open. So you need to close it prior updating the PDF file.
+SumatraPDF is highly recommended since it supports all features.
+
 ### Linux
 
 On Linux your can use [TeXLive][texlive] which is available for the most Linux
