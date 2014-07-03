@@ -13,7 +13,8 @@ do have there advantages and disadvantages depending on your use.
 
 In every file you can fill some options, see internal\_options-label for the
 complete list. The important options for building up a multi files project is
-**root**. Please follow the next steps to understand this is working.
+**root**. Please follow the next steps to understand this is working. Note that 
+if you are working within a sublimetext project, you will need to use the second method (below).
 
 Create the Root Document
 ------------------------
