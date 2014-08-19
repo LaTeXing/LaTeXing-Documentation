@@ -4,8 +4,8 @@ LaTeXing offers a great support for the work together with Zotero. This
 feature was introduced with LaTeXing version 0.8. The steps to setting up
 Zotero are very simple and you just have to follow these steps systematically.
 
-> To work with Mendeley and Zotero you need the package oauthlib available
-> from the package control.
+> To work with Mendeley and Zotero you need the package oauthlib & SSL
+> available from the package control.
 
 Activate the **zotero** option inside the LaTeXing.sublime-settings. At the
 first moment LaTeXing tries to access some data from Zotero and you haven't

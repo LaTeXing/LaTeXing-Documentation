@@ -5,8 +5,8 @@ feature was introduced with LaTeXing version 0.8. The steps to setting up
 Mendeley are very simple and you just have to follow these steps
 systematically.
 
-> To work with Mendeley and Zotero you need the package oauthlib available
-> from the package control.
+> To work with Mendeley and Zotero you need the package oauthlib & SSL
+> available from the package control.
 
 Activate the **mendeley** option inside the LaTeXing.sublime-settings. At the
 first moment LaTeXing tries to access some data from Mendeley and you haven't
