@@ -29,14 +29,14 @@ Log in with your default Bibsonomy login details.
 
 ![](images/bibsonomy_setup_3.jpg)
 
-Now you have to generate and/or copy the api key for LaTeXing, sroll down and
+Now you have to generate and/or copy the api key for LaTeXing, scroll down and
 copy the api key and go back to LaTeXing.
 
 ## Enter the Username and Api key
 
 With the api key code from Bibsonomy.org you can finalize the authorisation
 process. Just type your username and paste the code in the input box and press
-enter. Seperate the username and api key by a space.
+enter. Separate the username and api key by a space.
 
 ![](images/bibsonomy_setup_4.jpg)
 

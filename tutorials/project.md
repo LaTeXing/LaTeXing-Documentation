@@ -4,10 +4,10 @@ Normally if you writing a document in LaTeX you always want to have multi
 files. This tutorial gives you an overview about the options within LaTeXing
 to hand that situation. The support is wide, LaTeXing offers completing
 citations, references, abbreviations (through the package acronym), and all
-other availabke completions throughout the whole project.
+other available completions throughout the whole project.
 
 You have to different ways of building up a project in LaTeXing. Both methods
-do have there advantages and disadvantages depending on your use.
+do have their advantages and disadvantages depending on your use.
 
 ## First Method (Options)
 
