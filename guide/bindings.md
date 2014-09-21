@@ -284,18 +284,24 @@ Create a stared respectively unstared version of the current environment, for
 example \\begin\{align\} will be changes into \\begin\{align\*\} and vice-
 versa if calling the command again.
 
-## Build Options
+## Building the Document
+
+**Keybinding:** `cmd + b`
+
+Builds the document by invoking `latexmk` which completely automates the build process.
 
 **Keybinding:** `cmd + l, cmd + b`
 
 Shows an overlay with the prefix Build: which will display all available build
 commands for the selected mode.
 
-## Clean Build
-
 **Keybinding:** `shift + cmd + b`
 
-Cleans the temporary files for the current project.
+Build the document as specified in the quick build settings. This might generate the pdf a lot faster, but some features such as references might be missing. 
+
+**Keybinding:** `^ + cmd + b`
+
+Shows an overlay with the prefix Quick Build: which will display all available quick build commands for the selected mode.
 
 ## Show Commands
 

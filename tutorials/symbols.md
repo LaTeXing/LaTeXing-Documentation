@@ -94,8 +94,8 @@ the `§` trigger this is very easy and quick to complete.
 | ----------- | ------------------ | ---------------------- |
 | <-         | \leftarrow          | \longleftarrow         |
 | <=         | \Leftarrow          | \Longleftarrow         |
-| ->          | \rightarrow        | \ronglightarrow        |
-| =>          | \Rightarrow        | \Ronglightarrow        |
+| ->          | \rightarrow        | \longrightarrow        |
+| =>          | \Rightarrow        | \Longrightarrow        |
 | <->         | \leftrightarrow    | \longleftrightarrow    |
 | <=>         | \Leftrightarrow    | \Longleftrightarrow    |
 
