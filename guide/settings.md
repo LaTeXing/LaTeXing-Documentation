@@ -219,12 +219,12 @@
 ## Partial Build
 
 	/*
-	 * If partial build is enabled mode, just the document that is currently
-	 * being edited is built. All the preambles of root document will be
-	 * included as well, so you are not losing any settings while a partial
+	 * If partial build mode is enabled, just the document that is currently
+	 * being edited is built. All the preambles of the root document will be
+	 * included as well, so you are not losing any settings during a partial
 	 * build.
 	 *
-	 * This can be useful if you for example just would like to typeset one
+	 * This can be useful if you, for example, just would like to typeset one
 	 * single chapter of a whole project. Apart from the preambles, the
 	 * bibliography will also be included.
 	 */
@@ -235,7 +235,7 @@
 
 	/*
 	 * Once you are opening a supported LaTeX source file LaTeXing can open
-	 * the corresponding PDF file together with the current loaded file.
+	 * the corresponding PDF file together with the currently loaded file.
 	 */
 
 	"open_pdf_on_load": true,
@@ -243,7 +243,7 @@
 ## Typeset on Save
 
 	/*
-	 * Typeset the document on saving it
+	 * Typeset the document on saving it.
 	 */
 
 	"typeset_on_save": false,
@@ -252,7 +252,7 @@
 
 	/*
 	 * Set the line you are working on automatically as vertical center of
-	 * your screen
+	 * your screen.
 	 */
 
 	"type_scrolling": false,
@@ -267,7 +267,7 @@
 	 * output_directory_mode: use a relative directory named "Output" next to
 	 * your source code (0) or use a temporary dictionary (1).
 	 *
-	 * Just can clean up the temporary dictionary by calling the "Clean
+	 * Just clean up the temporary dictionary by calling the "Clean
 	 * Temporary Output Dictionary" command.
 	 */
 
@@ -277,7 +277,7 @@
 ## Default Extensions
 
 	/*
-	 * Define the default TEX and BIB file extension, this is used if no
+	 * Define the default TEX and BIB file extension. This is used if no
 	 * extension is defined and one is required.
 	 */
 
@@ -301,7 +301,7 @@
 	 * for the fill command of "includegraphics".
 	 *
 	 * The option "currfile_graphicspath" enables the use of the package
-	 * currfile and a changed graphicspath in huge projects like this in you
+	 * currfile and a changed graphicspath in huge projects like this in your
 	 * TeX file: \graphicspath{\currfiledir}
 	 */
 
